@@ -1,0 +1,12 @@
+{
+  "name": "com.hasanozen.integratedtimers",
+  "version": "1.0.0",
+  "displayName": "Integrated Timers",
+  "description": "Timer system that works in Unity's Player Loop",
+  "unity": "2022.1",
+  "keywords": ["timer", "player loop", "unity"],
+  "author": {
+    "name": "Hasan Ozen",
+    "url": "https://github.com/hasanozen"
+  }
+}
