@@ -80,15 +80,18 @@ private void OnDestroy()
 }
 ```
 
-## Setup & Usage
-* Add the Timer System to Your Project
-    * Download or clone the repository and import the code into your Unity project.
+## Setup
+Download this library into your project or add packaged from Unity Package Manager using the URL:
 
-* Create a Timer
-  * You can create a countdown, stopwatch, or ticker timer by inheriting from the Timer base class and implementing the Tick() method.
-  Start and Manage Timers
+`https://github.com/adammyhre/Unity-Improved-Timers.git`
 
-* Use the Manager class to register and update timers, and ensure timers are properly disposed of when no longer needed.
+### OR
+
+add the following line into your 'manifest.json' file.
+
+```
+"com.hasanozen.integratedtimers": "https://github.com/hasanozen/integrated-timers.git"
+```
 
 ## Contributing
 If you'd like to contribute to the project, feel free to fork the repository and submit a pull request with your improvements.
