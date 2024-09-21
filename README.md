@@ -43,9 +43,9 @@ The Bootstrapper class integrates the Timer system into Unity's Player Loop. It 
 When the Unity game loads, the Bootstrapper automatically integrates the timer system into Unity's PlayerLoop using the RuntimeInitializeOnLoadMethod attribute.
 
 ### Timer Lifecycle
-Registration: Timers are registered with the Manager when started, and unregistered when stopped or disposed.
-Update: The Manager.UpdateTimers() method is called every frame, updating all registered timers by calling their Tick() methods.
-Clearing: Timers are cleared automatically when the game exits play mode (in the Unity Editor) or when manually disposed.
+- Registration: Timers are registered with the Manager when started, and unregistered when stopped or disposed.
+- Update: The Manager.UpdateTimers() method is called every frame, updating all registered timers by calling their Tick() methods.
+- Clearing: Timers are cleared automatically when the game exits play mode (in the Unity Editor) or when manually disposed.
 
 ### Example Usage
 
